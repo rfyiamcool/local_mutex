@@ -3,7 +3,7 @@
 
 #Usage:
 
-最简单的例子,适合一个程序同时只能跑一个的场景.
+最简单的例子,适合一个程序同时跑一个的场景.
 ```
 import sys
 from local_mutex import LocalMutex
@@ -32,4 +32,12 @@ finally:
 ```
 with LocalMutex('app.lock', wait = True):
     print 'doing'
+```
+
+如果是多线程环境,直接用threading的Lock
+```
+import threading
+lock = threading.Lock()
+with lock:
+    pass
 ```
