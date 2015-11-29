@@ -6,10 +6,10 @@ def read(fname):
 
 setup(
         name = "local_mutex",
-        version = "1.0",
+        version = "1.1",
         author = "ruifengyun",
         author_email = "rfyiamcool@163.com",
-        description = "local mutex",
+        description = "fcntl local mutex",
         license = "MIT",
         keywords = ["local mutex","fengyun"],
         url = "https://github.com/rfyiamcool",
