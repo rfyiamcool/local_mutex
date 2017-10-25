@@ -1,8 +1,6 @@
 # local_mutex
 
-```
 本地锁,通过fcntl针对文件加锁实现的. 需要强烈注意的是,多线程下是无效的,原因? [查看链接](http://xiaorui.cc)
-```
 
 
 ## Install:
